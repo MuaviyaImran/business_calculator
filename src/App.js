@@ -38,7 +38,7 @@ function App() {
       risk: risk,
     };
     try {
-      const response = await fetch("/rest/bus04", {
+      const response = await fetch("http://www.calcxml.com/rest/bus04", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
